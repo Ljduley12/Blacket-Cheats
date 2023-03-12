@@ -1,5 +1,5 @@
 (() => {
-    if(document.location.pathname !== "/stats") return;
+    if(document.location.pathname !== "/") return;
     blacket.user.blooks = blacket.blooks;
     $(".styles__headerBlookContainer___36zY5-camelCase").click()
     Object.keys(blacket.blooks).forEach((blook) => {
