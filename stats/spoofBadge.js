@@ -1,5 +1,5 @@
 (() => {
-    if(document.location.pathname !== "/stats") return;
+    if(document.location.pathname !== "/chat") return;
     badge = prompt('Which badge do you want?');
     if(!Object.keys(blacket.badges).includes(badge)) {
         alert('Invalid badge!');
